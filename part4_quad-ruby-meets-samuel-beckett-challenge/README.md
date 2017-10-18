@@ -1,12 +1,12 @@
 # Quad Ruby Meets Samuel Beckett
 
-##Learning Competencies
+## Learning Competencies
 
 * Model a simple (albeit absurd and French) system of rules.
 * Recursion 
 * Art! Culture!
 
-##Summary
+## Summary
 
 [Samuell Beckett](http://en.wikipedia.org/wiki/Samuel_Beckett) was a Nobel-prize-winning author, poet, and playwright most famously known for works like *[Waiting for Godot](http://en.wikipedia.org/wiki/Waiting_for_Godot)* and *[Endgame](http://en.wikipedia.org/wiki/Endgame_%27play%28)*. Born in Ireland in 1906, he spent most of his adult life living in Paris, France, including time as a courier for the [French Resistance](http://en.wikipedia.org/wiki/French_Resistance).
 
@@ -45,9 +45,9 @@ beckett_directions(['apple', 'pear', 'melon'])
    #     ['melon']]
 ```
 
-##Releases
+## Releases
 
-###Release 0 : Extracting Patterns
+### Release 0 : Extracting Patterns
 
 Before you start coding, sit down and try to extract patterns from the sequences above. Don't be afraid to use pen and paper, or pull out colored index cards and use them to represent which actors are on stage at a given time.
 
@@ -79,4 +79,3 @@ If only Beckett were a programmer!
 
 <!-- ##Optimize Your Learning -->
 
-##Resources
