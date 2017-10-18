@@ -49,9 +49,7 @@ beckettDirections(['apple', 'pear', 'melon'])
 
 ### Release 0: Extracting Patterns
 
-Before you start coding, sit down and try to extract patterns from the sequences above. Don't be afraid to use pen and paper, or pull out colored index cards and use them to represent which actors are on stage at a given time.
-
-If you don't see the pattern it will be impossible to implement it in Ruby. This problem is easiest to solve recursively. Can you see how we can get the stage directions for three actors from the directions for two? How we get the directions for two actors from one?
+Before you start coding, sit down and try to extract patterns from the sequences above. If you don't see the pattern it will be impossible to implement it. This problem is easiest to solve recursively. Can you see how we can get the stage directions for three actors from the directions for two? How do we get the directions for two actors from one?
 
 Keep in mind the labels for the actors are arbitrary. The stage directions for `['tim', 'frank']` will be the same as the stage directions for `['linda', 'sue']`, modulo our labeling.
 
@@ -61,7 +59,7 @@ Here's a [video](https://www.youtube.com/watch?v=LPJBIvv13Bc) that might make th
 
 Remember the precise requirements. `beckettDirections` should return a list of arrays such that
 
-1. Every subset of the input array is in the list exactly once–two arrays that differ only by their ordering count as the same actors being on stage, for our purposes.
+1. Every subset of the input array is in the list exactly once – two arrays that differ only by their ordering count as the same actors being on stage, for our purposes.
 2. Consecutive arrays in the list differs by *either* the addition or removal of a single element, representing an actor either entering or leaving the stage, respectively.
 
 #### Fun Facts!
@@ -71,9 +69,3 @@ For people who actually watched that whole video, you might object that in the a
 Beckett chose to remove the requirement that the same set of actors never appear on stage twice rather than the requirement that the actor exiting the stage be the "oldest" actor. In the interest of giving you a solvable challenge, we'll be removing the former requirement.
 
 For 5, 6, 7, and 8 actors there are actually (many) stage directions which satisfy all of Beckett's requirements! They're hard to find without the aid of a computer, though. The first such set of stage directions for 7 actors took months of computing time, for example.
-
-If only Beckett were a programmer!
-
-
-<!-- ##Optimize Your Learning -->
-
