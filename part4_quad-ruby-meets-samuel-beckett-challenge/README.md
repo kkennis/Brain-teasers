@@ -55,9 +55,7 @@ If you don't see the pattern it will be impossible to implement it in Ruby. This
 
 Keep in mind the labels for the actors are arbitrary. The stage directions for `['tim', 'frank']` will be the same as the stage directions for `['linda', 'sue']`, modulo our labeling.
 
-Here's a [video](https://www.youtube.com) that might make the pattern clearer (watching in full screen plus 1080p is best):
-
-<iframe width="780" height="440" src="https://www.youtube.com/embed/8ueegfo7VkU?hd=1&amp;showinfo=0" frameborder="0" allowfullscreen style="margin: 0 auto;display: block;"></iframe>
+Here's a [video](https://www.youtube.com/watch?v=LPJBIvv13Bc) that might make the pattern clearer (watching in full screen plus 1080p is best).
 
 ###Release 1 : Implement `beckettDirections`
 
