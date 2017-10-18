@@ -38,7 +38,7 @@ beckettDirections(['apple', 'pear', 'melon'])
    // => [[],
    //     ['apple'],
    //     ['apple', 'pear'],
-   //    ['pear'],
+   //     ['pear'],
    //     ['pear', 'melon'],
    //     ['apple', 'pear', 'melon'],
    //     ['apple', 'melon'],
