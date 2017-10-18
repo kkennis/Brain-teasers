@@ -24,17 +24,17 @@ We're going to write a method `beckett_directions` which takes as its input an a
 
 Here are some examples of what `beckett_directions` should return:
 
-```ruby
+```javascript
 # The play "ends" when the last remaining actor is on stage, so that actor never exits
-beckett_directions(['red'])
+beckettDirections(['red'])
   # => [[], ['red']]
 
 # The play ends when "elaine" is the last actor on the stage
-beckett_directions(['jasper', 'elaine'])
+beckettDirections(['jasper', 'elaine'])
   # => [[], ['jasper'], ['jasper', 'elaine'], ['elaine']]
 
 # The play ends when "melon" is the last actor on the stage
-beckett_directions(['apple', 'pear', 'melon'])
+beckettDirections(['apple', 'pear', 'melon'])
    # => [[],
    #     ['apple'],
    #     ['apple', 'pear'],
@@ -59,9 +59,9 @@ Here's a [video](https://www.youtube.com) that might make the pattern clearer (w
 
 <iframe width="780" height="440" src="https://www.youtube.com/embed/8ueegfo7VkU?hd=1&amp;showinfo=0" frameborder="0" allowfullscreen style="margin: 0 auto;display: block;"></iframe>
 
-###Release 1 : Implement `beckett_directions`
+###Release 1 : Implement `beckettDirections`
 
-Remember the precise requirements. `beckett_directions` should return a list of arrays such that
+Remember the precise requirements. `beckettDirections` should return a list of arrays such that
 
 1. Every subset of the input array is in the list exactly once–two arrays that differ only by their ordering count as the same actors being on stage, for our purposes.
 2. Consecutive arrays in the list differs by *either* the addition or removal of a single element, representing an actor either entering or leaving the stage, respectively.
