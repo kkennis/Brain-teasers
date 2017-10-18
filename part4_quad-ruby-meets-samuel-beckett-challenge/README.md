@@ -18,11 +18,11 @@ In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wik
 
 The stage begins empty and *white* enters. As the play progresses, actors enter and exit one at a time. But the stage directions have an interesting property: each combination of actors appears on the stage once and only once throughout the play, and the play ends once the final actor is on the stage.
 
-We're going to write a method `beckett_directions` which takes as its input an array of (unique) actors and returns a list of stage directions to create a *Quad*-like play with those actors. Rather than reporting on who entered or who left, we'll report on who is on the stage at that moment in time.
+We're going to write a method `beckettDirections` which takes as its input an array of (unique) actors and returns a list of stage directions to create a *Quad*-like play with those actors. Rather than reporting on who entered or who left, we'll report on who is on the stage at that moment in time.
 
 ### Example Return Values
 
-Here are some examples of what `beckett_directions` should return:
+Here are some examples of what `beckettDirections` should return:
 
 ```javascript
 # The play "ends" when the last remaining actor is on stage, so that actor never exits
