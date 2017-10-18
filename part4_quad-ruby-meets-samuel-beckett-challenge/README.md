@@ -47,7 +47,7 @@ beckettDirections(['apple', 'pear', 'melon'])
 
 ## Releases
 
-### Release 0 : Extracting Patterns
+### Release 0: Extracting Patterns
 
 Before you start coding, sit down and try to extract patterns from the sequences above. Don't be afraid to use pen and paper, or pull out colored index cards and use them to represent which actors are on stage at a given time.
 
@@ -57,7 +57,7 @@ Keep in mind the labels for the actors are arbitrary. The stage directions for `
 
 Here's a [video](https://www.youtube.com/watch?v=LPJBIvv13Bc) that might make the pattern clearer (watching in full screen plus 1080p is best).
 
-###Release 1 : Implement `beckettDirections`
+### Release 1: Implement `beckettDirections`
 
 Remember the precise requirements. `beckettDirections` should return a list of arrays such that
 
