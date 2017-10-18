@@ -1,10 +1,4 @@
-# Quad Ruby Meets Samuel Beckett
-
-## Learning Competencies
-
-* Model a simple (albeit absurd and French) system of rules.
-* Recursion 
-* Art! Culture!
+# Quad
 
 ## Summary
 
