@@ -27,22 +27,22 @@ Here are some examples of what `beckettDirections` should return:
 ```javascript
 # The play "ends" when the last remaining actor is on stage, so that actor never exits
 beckettDirections(['red'])
-  # => [[], ['red']]
+  // => [[], ['red']]
 
 # The play ends when "elaine" is the last actor on the stage
 beckettDirections(['jasper', 'elaine'])
-  # => [[], ['jasper'], ['jasper', 'elaine'], ['elaine']]
+  // => [[], ['jasper'], ['jasper', 'elaine'], ['elaine']]
 
 # The play ends when "melon" is the last actor on the stage
 beckettDirections(['apple', 'pear', 'melon'])
-   # => [[],
-   #     ['apple'],
-   #     ['apple', 'pear'],
-   #     ['pear'],
-   #     ['pear', 'melon'],
-   #     ['apple', 'pear', 'melon'],
-   #     ['apple', 'melon'],
-   #     ['melon']]
+   // => [[],
+   //     ['apple'],
+   //     ['apple', 'pear'],
+   //    ['pear'],
+   //     ['pear', 'melon'],
+   //     ['apple', 'pear', 'melon'],
+   //     ['apple', 'melon'],
+   //     ['melon']]
 ```
 
 ## Releases
